@@ -8,7 +8,8 @@ void main() {
   } else if (grade == 'C') {
     print('Satisfactory work. You grasped the basics but could improve.');
   } else if (grade == 'F') {
-    print('Unsatisfactory work. You need to review the material and re-attempt.');
+    print(
+        'Unsatisfactory work. You need to review the material and re-attempt.');
   } else {
     print('Invalid grade. Please enter a valid grade (A, B, C, or F).');
   }
