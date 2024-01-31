@@ -1,27 +1,20 @@
 void main() {
-  String dayOfWeek = 'Tuesday';  // Replace with desired day
+  String grade = 'A'; // Replace with actual grade
 
-  switch (dayOfWeek) {
-    case 'Monday':
-      print('It\'s the start of the workweek!');
+  switch (grade) {
+    case 'A':
+      print('Excellent work! You achieved mastery of the material.');
       break;
-    case 'Tuesday':
-      print('Tuesday is for tacos!');
+    case 'B':
+      print('Great job! You demonstrated a good understanding of the material.');
       break;
-    case 'Wednesday':
-      print('Hump day, we\'re halfway there!');
+    case 'C':
+      print('Satisfactory work. You grasped the basics but could improve.');
       break;
-    case 'Thursday':
-      print('Almost Friday!');
-      break;
-    case 'Friday':
-      print('TGIF! Time to relax and recharge.');
-      break;
-    case 'Saturday':
-    case 'Sunday':
-      print('Weekend vibes! Enjoy your time off.');
+    case 'F':
+      print('Unsatisfactory work. You need to review the material and re-attempt.');
       break;
     default:
-      print('Invalid day of the week.');
+      print('Invalid grade. Please enter a valid grade (A, B, C, or F).');
   }
 }
